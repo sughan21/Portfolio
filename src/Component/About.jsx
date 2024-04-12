@@ -9,8 +9,8 @@ export default function About() {
       <div className="md:w-1/2 ">
         <img className="py-5 w-[35rem] md:ml-[5rem]" src={Aboutimg} />
       </div>
-      <div className="md:w-1/2 px-5 flex justify-center ">
-        <div className="flex flex-col justify-center px-5">
+      <div className="md:w-1/2 px-5 flex justify-center">
+        <div className="flex flex-col justify-center">
           <h1 className="text-4xl text-white border-b-4 border-[#1c1fd0] mb-3 w-[160px] font-bold  font-Hero-font">
             About Me
           </h1>
