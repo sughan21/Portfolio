@@ -12,39 +12,42 @@ export default function Header() {
       <nav className=" hidden md:block">
         <ul className="flex gap-5 text-white text-xl">
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Project</a>
+            <a href="#project">Project</a>
           </li>
           <li>
-            <a href="#">Resume</a>
+            <a href="#resume">Resume</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
       {toggleMenu && (
         <nav className=" block md:hidden">
-          <ul className="flex flex-col gap-3 text-purple-400 text-xl fixed top-20 left-0 w-full p-4 text-center font-bold">
+          <ul
+            onClick={() => setToggleMenu(!toggleMenu)}
+            className="flex flex-col gap-3 text-purple-400 text-xl fixed top-20 left-0 w-full p-4 text-center font-bold"
+          >
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Project</a>
+              <a href="#project">Project</a>
             </li>
             <li>
-              <a href="#">Reusme</a>
+              <a href="#resume">Reusme</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
