@@ -25,7 +25,7 @@ export default function About() {
               <p className="text-center px-5 py-5">
                 Sony Ecommerce Website. Built with Frontend
               </p>
-              <div className="flex w-[200px] ml-36 justify-center  bg-blue-700 px-5 py-[0.5px] font-bold  hover:border-[0.5px]  border-white rounded cursor-pointer">
+              <div className="flex justify-center  bg-blue-700 px-1 py-[0.5px] font-bold  hover:border-[0.5px]  border-white rounded cursor-pointer">
                 <a href="https://github.com/sughan21/ecommerce-main">
                   View Project
                 </a>
@@ -38,7 +38,7 @@ export default function About() {
               <p className="text-center px-5 py-5">
                 Book Finder Website. Built with Frontend
               </p>
-              <div className="flex w-[200px] ml-36 justify-center  bg-blue-700 px-5 py-[0.5px] font-bold  hover:border-[0.5px]  border-white rounded cursor-pointer">
+              <div className="flex justify-center  bg-blue-700 px-5 py-[0.5px] font-bold  hover:border-[0.5px]  border-white rounded cursor-pointer">
                 <a href="https://github.com/sughan21/bookfinderapp">
                   View Project
                 </a>
@@ -51,7 +51,7 @@ export default function About() {
               <p className="text-center px-5 py-5">
                 Trainer and Student Website. Built with Frontend
               </p>
-              <div className="flex w-[200px] ml-36 justify-center  bg-blue-700 px-5 py-[0.5px] font-bold  hover:border-[0.5px]  border-white rounded cursor-pointer">
+              <div className="flex  justify-center  bg-blue-700 px-5 py-[0.5px] font-bold  hover:border-[0.5px]  border-white rounded cursor-pointer">
                 <a href="https://github.com/sughan21/hackfest-master">
                   View Project
                 </a>

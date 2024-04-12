@@ -9,12 +9,12 @@ export default function About() {
       <div className="md:w-1/2 ">
         <img className="py-5 w-[35rem] md:ml-[5rem]" src={Aboutimg} />
       </div>
-      <div className="md:w-1/2 flex justify-center">
-        <div className="flex flex-col justify-center">
+      <div className="md:w-1/2 px-5 flex justify-center ">
+        <div className="flex flex-col justify-center px-5">
           <h1 className="text-4xl text-white border-b-4 border-[#1c1fd0] mb-3 w-[160px] font-bold  font-Hero-font">
             About Me
           </h1>
-          <p className="text-white font-Hero-font w-[24.2rem] text-xl">
+          <p className="text-white font-Hero-font  text-xl">
             Hi.., My Name is Sughan Rithvik K. I'm a
             <span className="text-black"> Frontend Web Developer</span>. I Built
             Websites with

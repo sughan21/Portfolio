@@ -17,7 +17,7 @@ export default function Reusme() {
           <h1 className="text-4xl text-white border-b-4 border-[#1c1fd0] mb-3 w-[120px] font-bold font-Hero-font">
             Resume
           </h1>
-          <p className="text-white font-Hero-font w-[24.2rem] text-xl">
+          <p className="text-white font-Hero-font text-xl">
             You can view my resume{" "}
             <a
               className="bg-blue-700 px-2 py-[0.5px] font-bold  hover:border-[0.5px]  border-white rounded"
