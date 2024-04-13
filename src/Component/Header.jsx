@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="flex justify-between bg-blue-400 px-4 py-6">
       <a href="#" className="font-bold text-2xl">
-        <span className="text-white">P</span>rotfolio
+        <span className="text-white">P</span>ortfolio
       </a>
       <nav className=" hidden md:block">
         <ul className="flex gap-5 text-white text-xl">
